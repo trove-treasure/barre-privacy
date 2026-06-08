@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barre - Politika e Privatësisë</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.8;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: white;
+            min-height: 100vh;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #667eea;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: #f8f9fa;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background: #667eea;
+            color: white;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 30px;
+            padding: 10px 20px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        .back-link:hover {
+            background: #764ba2;
+        }
+        .footer {
+            margin-top: 60px;
+            padding: 30px;
+            background: #f8f9fa;
+            text-align: center;
+            border-radius: 10px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../" class="back-link">← Kthehu në Shtëpi</a>
+
+        <header>
+            <h1>🔒 POLITIKA E PRIVATËSISË</h1>
+            <p>Aplikacioni Barre - Task Manager</p>
+            <p style="font-size: 0.9em; margin-top: 15px;">Versioni 1.0 | Data: 2024</p>
+        </header>
+
+        <h2>📋 1. PËRSHKRIMI I APLIKACIONIT</h2>
+        <p>
+            Aplikacioni <strong>Barre</strong> është një aplikacion i thjeshtë për menaxhimin e listës së punëve (Task Manager) 
+            që lejon përdoruesit të:
+        </p>
+        <ul>
+            <li>✅ Të shtojnë detyra/ngarkesa të reja</li>
+            <li>✅ Të fshijnë detyra të përfunduara</li>
+            <li>✅ Të shikojnë listën e plotë të detyrave</li>
+        </ul>
+
+        <h2>📊 2. MBLEDHJA E TË DHËNAVE</h2>
+        <p><strong>Të dhënat që mblidhen:</strong></p>
+        <ul>
+            <li>❌ NUK mblidhen informacione personale (emri, email, numri telefoni)</li>
+            <li>❌ NUK mblidhen të dhëna gjeolokacioni</li>
+            <li>❌ NUK mblidhen të dhëna për kontaktet</li>
+            <li>✅ VETËM të dhënat e detyrave që përdoruesi shkruan lokalisht në pajisje</li>
+        </ul>
+
+        <p><strong>Ku ruhen të dhënat:</strong></p>
+        <ul>
+            <li>📱 Lokalisht në pajisjen e përdoruesit (në memorjen e aplikacionit)</li>
+            <li>❌ NUK dërgohen në servera</li>
+            <li>❌ NUK ruhen në cloud</li>
+        </ul>
+
+        <h2>🔒 3. SIGURIMI I TË DHËNAVE</h2>
+        <ul>
+            <li>✅ Të dhënat e ruajtur <strong>lokalisht në pajisje</strong> janë të sigurta</li>
+            <li>✅ Aplikacioni <strong>nuk lidhet në internet</strong> për funksiona bazë</li>
+            <li>✅ <strong>Nuk ka transmisioni të të dhënave</strong></li>
+            <li>✅ Përdoruesi ka kontroll të plotë mbi të dhënat</li>
+        </ul>
+
+        <h2>👤 4. TË DREJTAT E PËRDORUESIT</h2>
+        <p>Përdoruesi ka të drejtën të:</p>
+        <ul>
+            <li>✅ Të fshijë të gjithë të dhënat duke distaluar aplikacionin</li>
+            <li>✅ Të menaxhojë të dhënat në çdo moment</li>
+            <li>✅ Të kërkojë informacione rreth të dhënave të ruajtura</li>
+        </ul>
+
+        <h2>📱 5. LEJET E NEVOJSHME</h2>
+        <table>
+            <tr>
+                <th>Leja</th>
+                <th>Arsyeja</th>
+                <th>Përdorimi</th>
+            </tr>
+            <tr>
+                <td>Memories lokale</td>
+                <td>Ruajtja e detyrave</td>
+                <td>Lokalisht në pajisje</td>
+            </tr>
+            <tr>
+                <td>❌ Internet</td>
+                <td>-</td>
+                <td>Nuk nevojitet</td>
+            </tr>
+            <tr>
+                <td>❌ Kontakte</td>
+                <td>-</td>
+                <td>Nuk nevojitet</td>
+            </tr>
+            <tr>
+                <td>❌ Gjeolokacion</td>
+                <td>-</td>
+                <td>Nuk nevojitet</td>
+            </tr>
+        </table>
+
+        <h2>🍪 6. COOKIES & TRACKING</h2>
+        <ul>
+            <li>❌ NUK ka cookies</li>
+            <li>❌ NUK ka tracking</li>
+            <li>❌ NUK ka analytics të tretësh</li>
+            <li>❌ NUK ka ads</li>
+        </ul>
+
+        <h2>👶 7. PRIVATËSIA E FËMIJËVE</h2>
+        <p>
+            Aplikacioni <strong>Barre</strong> është për të gjithë moshën. Nuk mblidhen të dhëna të veçanta për fëmijë.
+        </p>
+
+        <h2>🔄 8. NDRYSHIMET NË POLITIKË</h2>
+        <p>
+            Mund të ndryshoj politikën në versione të ardhshme. Përdoruesit do të njoftohen nëpërmjet update-it aplikacionit.
+        </p>
+
+        <h2>⚖️ 9. KUSHTET E PËRDORIMIT</h2>
+        <h3>A. PËRDORIMI I APLIKACIONIT</h3>
+        <p>Përdoruesi pranon:</p>
+        <ul>
+            <li>✅ Të përdor aplikacionin për qëllime legjitime</li>
+            <li>✅ Të mos dëmtoj pajisjen ose sistemin</li>
+            <li>✅ Të respektoj të drejtat e autorit</li>
+        </ul>
+
+        <h3>B. ZËVENDËSIMI I PËRGJEGJËSISË</h3>
+        <p>Aplikacioni ofrohet <strong>"AS IS"</strong> pa garanci:</p>
+        <ul>
+            <li>❌ Nuk jemi përgjegjës për humbjen e të dhënave</li>
+            <li>❌ Nuk jemi përgjegjës për punën e papritur të aplikacionit</li>
+            <li>✅ Përdoruesi duhet të bëj backup manual</li>
+        </ul>
+
+        <h2>📞 10. KONTAKTI</h2>
+        <p>
+            Nëse ke pyetje rreth privatësisë ose kushteve të përdorimit:
+        </p>
+        <ul>
+            <li>📧 Email: <strong>[vendos email tëndin]</strong></li>
+            <li>🌐 Website: <strong>[vendos website nëse ke]</strong></li>
+        </ul>
+
+        <div class="footer">
+            <p><strong>Barre App</strong> © 2024 | Të gjitha të drejtat e rezervuara</p>
+            <p style="margin-top: 15px; font-size: 0.9em;">
+                Aplikacioni përputhet me GDPR, CCPA dhe Ligjet e Shqipërisë për Privatësinë
+            </p>
+        </div>
+    </div>
+</body>
+</html>
