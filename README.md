@@ -37,4 +37,4 @@ For questions about privacy or terms:
 
 ---
 
-**Last Updated:** 2024
+**Last Updated:** 2026
